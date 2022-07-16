@@ -1,0 +1,21 @@
+{
+    "_comment": "@TODO: https://www.youtube.com/watch?v=A9UETXyAmL4 48:10 Übersetzung anlegen ",
+    "i18n": true,
+    "type": "tabs",
+    "items": {
+        "_options": {
+            "type": "panel",
+            "label": "Options",
+            "items": {
+                "Token": {
+                    "type": "text",
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "label": "AuthToken",
+                    "help": "The Authorisation token"
+                }
+            }
+        }
+    }
+}
