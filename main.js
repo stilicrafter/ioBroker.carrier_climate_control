@@ -10,6 +10,7 @@ const utils = require("@iobroker/adapter-core");
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
+const axios = require("axios").default;
 
 class CarrierClimateControl extends utils.Adapter {
 
