@@ -1,116 +1,116 @@
 {
-	"common": {
-		"name": "carrier_climate_control",
-		"version": "0.0.1",
-		"news": {
-			"0.0.1": {
-				"en": "initial release",
-				"de": "Erstveröffentlichung",
-				"ru": "Начальная версия",
-				"pt": "lançamento inicial",
-				"nl": "Eerste uitgave",
-				"fr": "Première version",
-				"it": "Versione iniziale",
-				"es": "Versión inicial",
-				"pl": "Pierwsze wydanie",
-				"zh-cn": "首次出版"
-			}
-		},
-		"title": "Carrier Climate Ctl",
-		"titleLang": {
-			"en": "Carrier Climate Ctl",
-			"de": "Trägerklimaregler",
-			"ru": "Перевозчик климата CTL",
-			"pt": "CTL do clima da transportadora",
-			"nl": "Carrier Climate Ctl",
-			"fr": "Transporteur Climat Ctl",
-			"it": "Vettore Clima Ctl",
-			"es": "Control de clima del portador",
-			"pl": "Przewoźnik Ctl . Klimat",
-			"zh-cn": "运营商气候控制"
-		},
-		"desc": {
-			"en": "An adapter to access you Carrier climat control / Single and Multisplit / HVAC System. Please note: This plugin is NOT afiliated with the manufacture and uses its open public API",
-			"de": "Ein Adapter für den Zugriff auf Ihr Carrier-Klimasteuerungs- / Single- und Multisplit- / HVAC-System. ",
-			"ru": "Адаптер для доступа к системе климат-контроля Carrier / одинарной и мультисплит-системе / системе HVAC. ",
-			"pt": "Um adaptador para acessar seu controle climático Carrier / Single e Multisplit / Sistema HVAC. ",
-			"nl": "Een adapter om toegang te krijgen tot uw Carrier klimaatregeling / Single en Multisplit / HVAC-systeem. ",
-			"fr": "Un adaptateur pour accéder à votre Carrier climat control / Single et Multisplit / HVAC System. ",
-			"it": "Un adattatore per accedere al tuo sistema di climatizzazione Carrier / Single e Multisplit / HVAC. ",
-			"es": "Un adaptador para acceder a tu climatización Carrier / Single y Multisplit / Sistema HVAC. ",
-			"pl": "Adapter umożliwiający dostęp do systemu sterowania klimatem firmy Carrier / Single and Multisplit / HVAC System. ",
-			"zh-cn": "一个适配器，可访问您的 Carrier 气候控制/单和多分体/HVAC 系统。"
-		},
-		"authors": [
-			"eDriveDE <edrivede@proton.me>"
-		],
-		"keywords": [
-			"carrier",
-			"Carrier",
-			"Carier",
-			"Climate",
-			"Control",
-			"Klimaanlage",
-			"Klima",
-			"HVAC",
-			"Split",
-			"Waemepumpe",
-			"heatpump"
-		],
-		"license": "GPL-3.0",
-		"platform": "Javascript/Node.js",
-		"main": "main.js",
-		"icon": "carrier_climate_control.png",
-		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/stilicrafter/ioBroker.carrier_climate_control/master/admin/carrier_climate_control.png",
-		"readme": "https://github.com/stilicrafter/ioBroker.carrier_climate_control/blob/master/README.md",
-		"loglevel": "info",
-		"mode": "daemon",
-		"type": "climate-control",
-		"compact": true,
-		"connectionType": "cloud",
-		"dataSource": "poll",
-		"materialize": true,
-		"adminUI": {
-			"config": "json"
-		},
-		"dependencies": [
-			{
-				"js-controller": ">=2.0.0"
-			}
-		],
-		"globalDependencies": [
-			{
-				"admin": ">=5.1.28"
-			}
-		]
-	},
-	"native": {
-		"option1": true,
-		"option2": "42"
-	},
-	"objects": [],
-	"instanceObjects": [
-		{
-			"_id": "info",
-			"type": "channel",
-			"common": {
-				"name": "Information"
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.connection",
-			"type": "state",
-			"common": {
-				"role": "indicator.connected",
-				"name": "Device or service connected",
-				"type": "boolean",
-				"read": true,
-				"write": false,
-				"def": false
-			},
-			"native": {}
-		}
-	]
+    "common": {
+        "name": "carrier_climate_control",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Carrier Climate Ctl",
+        "titleLang": {
+            "en": "Carrier Climate Ctl",
+            "de": "Carrier Klimaanlagen steuerung",
+            "ru": "Перевозчик климата CTL",
+            "pt": "CTL do clima da transportadora",
+            "nl": "Carrier Climate Ctl",
+            "fr": "Transporteur Climat Ctl",
+            "it": "Vettore Clima Ctl",
+            "es": "Control de clima del portador",
+            "pl": "Przewoźnik Ctl . Klimat",
+            "zh-cn": "运营商气候控制"
+        },
+        "desc": {
+            "en": "An adapter to access you Carrier climat control / Single and Multisplit / HVAC System. Please note: This plugin is NOT afiliated with the manufacture and uses its open public API",
+            "de": "Ein Adapter um auf ihr Zugriff Carrier- Klimasystem- / Single- und Multisplit- / HVAC-System. zuzugreifen. Hinweis: Das plugin ist nicht vom Hersteller sondern ein privates projekt!",
+            "ru": "Адаптер для доступа к системе климат-контроля Carrier / одинарной и мультисплит-системе / системе HVAC. ",
+            "pt": "Um adaptador para acessar seu controle climático Carrier / Single e Multisplit / Sistema HVAC. ",
+            "nl": "Een adapter om toegang te krijgen tot uw Carrier klimaatregeling / Single en Multisplit / HVAC-systeem. ",
+            "fr": "Un adaptateur pour accéder à votre Carrier climat control / Single et Multisplit / HVAC System. ",
+            "it": "Un adattatore per accedere al tuo sistema di climatizzazione Carrier / Single e Multisplit / HVAC. ",
+            "es": "Un adaptador para acceder a tu climatización Carrier / Single y Multisplit / Sistema HVAC. ",
+            "pl": "Adapter umożliwiający dostęp do systemu sterowania klimatem firmy Carrier / Single and Multisplit / HVAC System. ",
+            "zh-cn": "一个适配器，可访问您的 Carrier 气候控制/单和多分体/HVAC 系统。"
+        },
+        "authors": [
+            "eDriveDE <edrivede@proton.me>"
+        ],
+        "keywords": [
+            "carrier",
+            "Carrier",
+            "Carier",
+            "Climate",
+            "Control",
+            "Klimaanlage",
+            "Klima",
+            "HVAC",
+            "Split",
+            "Waemepumpe",
+            "heatpump"
+        ],
+        "license": "GPL-3.0",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "carrier_climate_control.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/stilicrafter/ioBroker.carrier_climate_control/master/admin/carrier_climate_control.png",
+        "readme": "https://github.com/stilicrafter/ioBroker.carrier_climate_control/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "climate-control",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=5.1.28"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
 }
