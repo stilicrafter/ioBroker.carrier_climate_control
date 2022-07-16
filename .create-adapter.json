@@ -1,0 +1,57 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "carrier_climate_control",
+	"title": "Carrier Climate Ctl",
+	"description": "An adapter to access you Carrier climat control / Single and Multisplit / HVAC System. Please note: This plugin is NOT afiliated with the manufacture and uses its open public API",
+	"keywords": [
+		"carrier",
+		"Carrier",
+		"Carier",
+		"Climate",
+		"Control",
+		"Klimaanlage",
+		"Klima",
+		"HVAC",
+		"Split",
+		"Waemepumpe",
+		"heatpump"
+	],
+	"contributors": [
+		"eDriveDE",
+		"Stilicrafter"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "climate-control",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"i18n": "JSON",
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "eDriveDE",
+	"authorGithub": "stilicrafter",
+	"authorEmail": "edrivede@proton.me",
+	"gitRemoteProtocol": "SSH",
+	"gitCommit": "yes",
+	"defaultBranch": "master",
+	"license": "GNU GPLv3",
+	"dependabot": "yes",
+	"creatorVersion": "2.1.1",
+	"replay": "/home/step/ioBroker.carrier_climate_control/.create-adapter.json"
+}
