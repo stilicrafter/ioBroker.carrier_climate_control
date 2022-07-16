@@ -34,7 +34,8 @@ class CarrierClimateControl extends utils.Adapter {
 	 */
 	async onReady() {
 
-
+		
+		
 
 
 
