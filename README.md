@@ -1,3 +1,8 @@
+NOTICE!
+PLEASE USE MIDEA HVCS ADAPTER!
+This adapter is DEPRICATED!
+
+
 ![Logo](admin/carrier_climate_control.png)
 # ioBroker.carrier_climate_control
 
